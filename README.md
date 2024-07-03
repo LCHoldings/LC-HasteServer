@@ -1,14 +1,4 @@
-# Important announcement:
-
-## [Soon a new version of Hastebin will be launched!](https://github.com/toptal/haste-server/issues/429)
-
-[Check here what you need to know.](https://github.com/toptal/haste-server/issues/429)
-
-.    
-.    
-.    
-
-# Haste
+# LC Scripts Haste Server
 
 Haste is an open-source pastebin software written in node.js, which is easily
 installable in any network.  It can be backed by either redis or filesystem,
