@@ -45,7 +45,7 @@ textarea {
 	border: 0px;
 	outline: none;
 	font-size: 13px;
-  overflow: inherit;
+  	overflow: inherit;
 }
 
 #box code {
@@ -62,6 +62,9 @@ textarea {
 	z-index: +1000; /* watch out */
 	margin-top: 10px;
     	margin-right: 10px;
+   	border: solid 1px;
+    	border-radius: 5px;
+    	border-color: #334155;
 }
 
 #box1 {
@@ -125,8 +128,8 @@ textarea {
 	line-height: 14px;
 	padding: 10px 15px;
 	user-select: none;
-	margin-top: 5px;
-    	border-radius: 5px;
+    	margin-top: -5px;
+    	border-radius: 0 0 5px 5px;
 }
 
 #box3 .label, #messages li {
