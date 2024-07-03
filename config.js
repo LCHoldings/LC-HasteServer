@@ -37,7 +37,7 @@
   },
 
   "documents": {
-    "about": "./README.md"
+    "about": "./readme.md"
   }
 
 }
