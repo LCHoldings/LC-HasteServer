@@ -1,5 +1,5 @@
 body {
-	background: #002B36;
+	background:#030616;
 	padding: 20px 50px;
 	margin: 0px;
 }
@@ -60,18 +60,22 @@ textarea {
 	top: 0px;
 	right: 0px;
 	z-index: +1000; /* watch out */
+	margin-top: 10px;
+    	margin-right: 10px;
 }
 
 #box1 {
 	padding: 5px;
 	text-align: center;
-	background: #00222b;
+	background: #0F172A;
+	border-radius: 5px 5px 0 0;
 }
 
 #box2 {
-	background: #08323c;
+	background: #0F172A;
 	font-size: 0px;
 	padding: 0px 5px;
+	border-radius: 0 0 5px 5px
 }
 
 #box1 a.logo, #box1 a.logo:visited {
@@ -115,12 +119,14 @@ textarea {
 }
 
 #box3, #messages li {
-	background: #173e48;
+	background: #0F172A;
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 14px;
 	padding: 10px 15px;
 	user-select: none;
+	margin-top: 5px;
+    	border-radius: 5px;
 }
 
 #box3 .label, #messages li {
